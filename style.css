@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+:root{
+    --titulo-vermelho: #8E2424;
+    --descricao-cinza: #667085;
+
+    --fonte-principal:"Inter"
+
+}
+*{
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-principal);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2em;
+}
+
+.navBar__logo{
+    display: flex;
+    
+}
+
+.logo__imagem{
+    padding-right: 0.5em;
+}
+
+.nav__nome{
+    color:#3A404E;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navBar__nav{
+    margin-right: auto;
+    padding-left: 8em;
+}
+
+.nav__opcoes{
+    padding-left: 1.8em ;
+    color: #667085;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.login{
+    color: #667085;
+    font-weight: 500;
+    font-size: 16px;
+    padding-right: 1.5em;
+
+}
+
+.cadastrar{
+    color: white;
+    background-color: var(--titulo-vermelho);
+    border: 1px solid var(--titulo-vermelho);
+    border-radius: 8px;
+    padding: .5em 1em;
+
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5em;
+}
+
+.titulo{
+    color: var(--titulo-vermelho);
+    font-weight: 600;
+
+}
+
+.container__titulo{
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #101828;
+    margin: 0.3em 0;
+}
+
+.texto__descricao{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--descricao-cinza);
+    text-align: center;
+    width: 48%;
+}
+
+.metricas__container{
+    display: flex;
+    padding-top: 6em;
+    justify-content: center;
+    width: 100%;
+}
+
+.dados__container{
+    padding-left: 2em
+}
+
+.dados__numericos{
+    color: var(--titulo-vermelho);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.dados__texto{
+    width: 20em;
+}
+
+.talentos__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8em;
+}
+
+.talentos__alerta{
+    background-color: #8E24240D;
+    color: rgb(197, 11, 11);
+    padding: .5em;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.talentos__titulo{
+    color:#101828;
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: .5em;
+}
+
+.talentos__texto{
+    color: var(--descricao-cinza);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.imagem__equipe{
+    margin-top: 1.8em;
+    width: 60%;
+}
+
+.lista__vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4em;
+}
+
+.lista__setores{
+    font-size: 20px;
+    font-weight: 500;
+    color: #101828;
+    margin-bottom: 2em;
+}
+
+.lista__atuacao{
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 1em 30em 1em 1.5em;
+    list-style: none;
+    margin-bottom: 2em;
+}
+
+.vaga{
+    color: #101828;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 1.5em;
+}
+
+.lista__titulo{
+    padding-bottom: 2em;
+}
+
+.tipo__salario{
+    color: var(--descricao-cinza);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.depoimento__container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(195, 25, 25, 0.05);
+    margin: 5em;
+    padding: 4em;
+}
+
+.apresenta__container{
+    color: var(--titulo-vermelho);
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+
+.depoimento__informa{
+    font-weight: 500;
+    font-size: 36px;
+    color: #101828;
+
+}
+
+.dados__colaboradora{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+}
+.foto__Julia{
+    width: 4%;
+    margin-bottom: 1em;
+}
+
+.nome__colaboradora{
+    font-size: 16px;
+    font-weight: 500;
+    color: #101828;
+
+}
+
+.funcao__colaboradora{
+    color: #667085;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.formulario{
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario__titulo{
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.formulario__texto{
+    font-size: 20px;
+    font-weight: 400;
+    color: #667085;
+    padding-bottom: 1em;
+}
+
+.formulario__escreve{
+    border: 1px solid #b6b6b6;
+    border-radius: 4px;
+    width: 20em;
+    height: 3em;
+    padding-left: 1em;
+}
+
+.formulario__button{
+    color: white;
+    background-color: var(--titulo-vermelho);
+    border: 1px solid var(--titulo-vermelho);
+    border-radius: 8px;
+    padding: .5em 1em;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 0.5em;
+}
+
+.formulario__direitos{
+    font-size: 16px;
+    font-weight: 400;
+    color: #98A2B3;
+    padding: 1em;
+}
